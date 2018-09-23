@@ -4,15 +4,10 @@
  * Main menu for MMM game
  */
 
-//import java.io.*;
-//import sun.audio.*;
 import javax.swing.*;
-//import java.awt.*;
 import java.awt.event.*;
-//import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-//import java.net.URL;
 
 public class Main extends JFrame implements ActionListener//, Runnable
 {    
@@ -25,10 +20,6 @@ public class Main extends JFrame implements ActionListener//, Runnable
   JButton credButton = new JButton ("MAKERS"); //credits button
   JLabel nameLabel = new JLabel ("MARTIANS MARVELOUS MARCH"); //name of game
   
-//  URL url = new URL("http://static1.squarespace.com/static/552a5cc4e4b059a56a050501/565f6b57e4b0d9b44ab87107/566024f5e4b0354e5b79dd24/1449141991793/NYCGifathon12.gif");
-//  Icon icon = new ImageIcon(url);
-//  JLabel label = new JLabel(icon);
-  
   public Main () //GUI Constuctor
   {
     setTitle("Martians Marvelous March");  //Create a window with a title
@@ -36,13 +27,6 @@ public class Main extends JFrame implements ActionListener//, Runnable
     setResizable(false);     // Do not allow the user to resize the window
     
     setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS)); //set frame to BoxLayout in the vertical form
-    
-//      JFrame f = new JFrame("Animation");
-//  f.getContentPane().add(label);
-//  f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//  f.pack();
-//  f.setLocationRelativeTo(null);
-//  f.setVisible(true);
     
     nameLabel.setAlignmentX(CENTER_ALIGNMENT); //set alignment to center of the page
     nameLabel.setVisible (true); //set label to visible
