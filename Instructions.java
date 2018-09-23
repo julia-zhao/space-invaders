@@ -11,7 +11,6 @@ import java.awt.FlowLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-//import javax.swing.JLayeredPane;
 
 public class Instructions extends JFrame implements ActionListener
 { 
@@ -29,15 +28,6 @@ public class Instructions extends JFrame implements ActionListener
     setTitle("Instructions");  //Create a window with a title
     setSize(800, 600);         //Set the size of the window
     setResizable(false);     // Do not allow the user to resize the window
-    
-//    //Notifies program when frame is closed (disposed)
-//    this.addWindowListener (new WindowAdapter (){
-//      @Override
-//      public void windowClosed(WindowEvent e) //overrides the default action that is performed then window is closed
-//      {
-//        Music.stop(); //stop music from playing
-//      }
-//    });
     
     iconLabel.setBounds (0, 0, 800, 600);
     marchButton.setBounds (350, 500, 100, 50); //set position of marchButton
